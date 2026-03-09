@@ -42,7 +42,7 @@ except NameError:
     BASE_DIR = os.getcwd()
 
 # 資料庫路徑
-DATA_FILENAME = os.path.join(BASE_DIR, 'News_Data.csv')
+DATA_FILENAME = os.path.join(BASE_DIR, 'Training_Dataset_Final.csv')
 LOG_FILENAME = os.path.join(BASE_DIR, 'scraper_final.log')
 
 # 標準欄位
